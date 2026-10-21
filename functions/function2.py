@@ -1,4 +1,6 @@
 from function1 import *
+import random
+
 texto=""
 for n in range(10):
     hola()
@@ -16,4 +18,7 @@ else:
 
 min, max = inputMinMax()
 print("Min:",min,"Max:",max)
+
+randomNumber = random.randint(min,max)
+print("Random number between",min,"and",max,":",randomNumber)
 
